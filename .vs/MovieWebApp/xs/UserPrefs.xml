@@ -3,14 +3,17 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieWeb/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieWeb/Data/ApplicationDbContext.cs">
     <Files>
       <File FileName="MovieWeb/Properties/launchSettings.json" />
-      <File FileName="MovieWeb/Program.cs" Line="21" Column="1" />
-      <File FileName="MovieWeb/Models/Actor.cs" />
-      <File FileName="MovieWeb/Models/Movie.cs" />
-      <File FileName="MovieWeb/Data/ApplicationDbContext.cs" />
-      <File FileName="MovieWeb/appsettings.json" Line="10" Column="27" />
+      <File FileName="MovieWeb/Program.cs" />
+      <File FileName="MovieWeb/Models/Actor.cs" Line="21" Column="1" />
+      <File FileName="MovieWeb/Models/Movie.cs" Line="43" Column="1" />
+      <File FileName="MovieWeb/Data/ApplicationDbContext.cs" Line="38" Column="1" />
+      <File FileName="MovieWeb/appsettings.json" Line="10" Column="61" />
+      <File FileName="MovieWeb/Models/Producer.cs" Line="19" Column="26" />
+      <File FileName="MovieWeb/Models/Cinema.cs" Line="6" Column="20" />
+      <File FileName="MovieWeb/Models/Actor_Movie.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +21,9 @@
           <Node name="MovieWebApp" expanded="True">
             <Node name="MovieWeb" expanded="True">
               <Node name="Data" expanded="True">
-                <Node name="Enums" expanded="True" />
+                <Node name="ApplicationDbContext.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>

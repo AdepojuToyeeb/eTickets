@@ -11,9 +11,6 @@ namespace MovieWeb.Models
 
 		public Actor Actor { get; set; }
 
-		//Relationship
-
-		public List<Actor_Movie> Actors_Movies { get; set; }
 
 	}
 }
