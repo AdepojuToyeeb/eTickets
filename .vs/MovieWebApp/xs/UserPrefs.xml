@@ -3,18 +3,32 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieWeb/Program.cs">
+    <Files>
+      <File FileName="MovieWeb/Properties/launchSettings.json" Line="7" Column="23" />
+      <File FileName="MovieWeb/Program.cs" Line="4" Column="44" />
+      <File FileName="MovieWeb/Models/Actor.cs" Line="19" Column="1" />
+      <File FileName="MovieWeb/Models/Movie.cs" Line="13" Column="1" />
+      <File FileName="MovieWeb/Data/MovieCategory.cs" Line="6" Column="13" />
+      <File FileName="MovieWeb/Data/ApplicationDbContext.cs" Line="10" Column="4" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieWebApp" expanded="True">
-            <Node name="MovieWeb" selected="True" />
+            <Node name="MovieWeb" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="Enums" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.MovieWeb FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.MovieWeb PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
