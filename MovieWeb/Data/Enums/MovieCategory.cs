@@ -6,7 +6,9 @@ namespace MovieWeb.Data
 		Action = 1,
 		Comedy,
 		Drama,
-		Documnentary
-	}
+		Documentary,
+        Horror,
+		Cartoon
+    }
 }
 
