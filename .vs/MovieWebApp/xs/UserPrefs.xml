@@ -7,7 +7,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MovieWebApp" expanded="True" />
+          <Node name="MovieWebApp" expanded="True">
+            <Node name="MovieWeb" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
