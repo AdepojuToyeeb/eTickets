@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/abc/Projects/MovieWebApp/MovieWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/abc/Projects/MovieWebApp/MovieWeb/Views/Actors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/abc/Projects/MovieWebApp/MovieWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
