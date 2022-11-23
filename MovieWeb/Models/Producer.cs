@@ -8,11 +8,14 @@ namespace MovieWeb.Models
 		[Key]
 		public int Id { get; set; }
 
-		public string ProfilePictureURL { get; set; }
+        [Display(Name = "Profile Picture ")]
+        public string ProfilePictureURL { get; set; }
 
-		public string FullName { get; set; }
+        [Display(Name = "Full Name")]
+        public string FullName { get; set; }
 
-		public string Bio { get; set; }
+        [Display(Name = "Biography")]
+        public string Bio { get; set; }
 
 		//Relationships
 

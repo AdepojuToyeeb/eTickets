@@ -23,7 +23,7 @@ namespace MovieWeb.Controllers
         public async Task<IActionResult> Index()
         {
             var allProducers = await _context.Producers.ToListAsync();
-            return View();
+            return View(allProducers);
         }
     }
 }

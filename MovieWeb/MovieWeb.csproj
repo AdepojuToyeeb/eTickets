@@ -17,11 +17,13 @@
     <None Remove="Data\Enums\" />
     <None Remove="Microsoft.AspNetCore.Razor.Runtime" />
     <None Remove="Views\Actors\" />
+    <None Remove="Views\Producers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Data\Enums\" />
     <Folder Include="Views\Actors\" />
+    <Folder Include="Views\Producers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
