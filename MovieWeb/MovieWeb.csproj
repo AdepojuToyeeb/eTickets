@@ -20,6 +20,7 @@
     <None Remove="Views\Producers\" />
     <None Remove="Views\Movies\" />
     <None Remove="Data\Services\" />
+    <None Remove="Data\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -28,6 +29,7 @@
     <Folder Include="Views\Producers\" />
     <Folder Include="Views\Movies\" />
     <Folder Include="Data\Services\" />
+    <Folder Include="Data\Base\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
