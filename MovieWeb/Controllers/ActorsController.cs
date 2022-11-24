@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MovieWeb.Data;
 using MovieWeb.Data.Services;
+using MovieWeb.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -29,6 +30,19 @@ namespace MovieWeb.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        //POST: /Actor/Create
+        [HttpPost]
+        public async Task<IActionResult> Create([Bind("FullName, ProfilePictureURL,Bio")]Actor actor)
+        {
+            if(!ModelState.IsValid)
+            {
+                return View(actor);
+            }
+            _service.Add(actor);
+            return RedirectToAction(nameof(Index));
+
         }
     }
 }
