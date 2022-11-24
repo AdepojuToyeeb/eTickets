@@ -5,7 +5,7 @@ namespace MovieWeb.Data.Services
 {
 	public interface IActorsService
 	{
-		IEnumerable<Actor> GetAll();
+		Task<IEnumerable<Actor>> GetAll();
 
 		Actor GetById(int Id);
 
