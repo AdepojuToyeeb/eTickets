@@ -5,15 +5,15 @@ namespace MovieWeb.Data.Services
 {
 	public interface IActorsService
 	{
-		Task<IEnumerable<Actor>> GetAll();
+		Task<IEnumerable<Actor>> GetAllAsync();
 
-		Actor GetById(int Id);
+		Task<Actor> GetByIdAsync(int Id);
 
-		void Add(Actor actor);
+		Task AddAsync(Actor actor);
 
-		Actor Update(int Id, Actor newActor);
+		Task<Actor> UpdateAsync(int Id, Actor newActor);
 
-		void Delete(int Id);
+		Task DeleteAsync(int Id);
 	}
 }
 

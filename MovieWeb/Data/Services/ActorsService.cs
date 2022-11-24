@@ -14,31 +14,38 @@ namespace MovieWeb.Data.Services
             _context = context;
 		}
 
-        public void Add(Actor actor)
+        public async Task AddAsync(Actor actor)
         {
-            _context.Add(actor);
-            _context.SaveChanges();
+            await _context.AddAsync(actor);
+            await _context.SaveChangesAsync();
         }
 
-        public void Delete(int Id)
+        public async Task DeleteAsync(int Id)
         {
-            throw new NotImplementedException();
+            var result = await _context.Actors.FirstOrDefaultAsync(n => n.Id == Id);
+            _context.Actors.Remove(result);
+            await _context.SaveChangesAsync();
+
+       
         }
 
-        public async Task<IEnumerable<Actor>> GetAll()
+        public async Task<IEnumerable<Actor>> GetAllAsync()
         {
             var result = await _context.Actors.ToListAsync();
             return result;
         }
 
-        public Actor GetById(int Id)
+        public async Task<Actor> GetByIdAsync(int Id)
         {
-            throw new NotImplementedException();
+            var result = await _context.Actors.FirstOrDefaultAsync(n => n.Id == Id);
+            return result;
         }
 
-        public Actor Update(int Id, Actor newActor)
+        public async Task<Actor> UpdateAsync(int Id, Actor newActor)
         {
-            throw new NotImplementedException();
+            _context.Update(newActor);
+            await _context.SaveChangesAsync();
+            return newActor;
         }
     }
 }

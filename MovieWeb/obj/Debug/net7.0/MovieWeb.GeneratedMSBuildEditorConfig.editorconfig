@@ -20,6 +20,18 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/abc/Projects/MovieWebApp/MovieWeb/Views/Actors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/abc/Projects/MovieWebApp/MovieWeb/Views/Actors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/abc/Projects/MovieWebApp/MovieWeb/Views/Actors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/abc/Projects/MovieWebApp/MovieWeb/Views/Actors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
